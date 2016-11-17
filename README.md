@@ -9,7 +9,7 @@
 
 高频和中低频现在在实际的生产领域各有侧重，此外中低频框架由于逻辑相对简单，在很多教学和研究领域使用也较多，比如我当下在研究的`zipline` 。 除此之外，以后如果有时间的话还想研究一下`apama`，但由于`apama`不是开源软件，考虑只了解一下它的机制之后看看能不能基于`Apache Spark Streaming`或`Storm`来实现。好像说的有点远了，那我们回来继续来谈`zipilne`。
 
-[zipline](http://zipline.io)是美国[Quantopian](https://quantopian.com) 公司开源的量化交易回测引擎，它使用`Python`语言开发，部分代码使用`cython`融合了部分c语言代码。`Quantopian` 在它的网站上的回测系统就是基于`zipline``的，经过生产环境的长期使用，已经比完善，并且在持续的改进中。
+[zipline](http://zipline.io)是美国[Quantopian](https://quantopian.com) 公司开源的量化交易回测引擎，它使用`Python`语言开发，部分代码使用`cython`融合了部分c语言代码。`Quantopian` 在它的网站上的回测系统就是基于`zipline`的，经过生产环境的长期使用，已经比完善，并且在持续的改进中。
 
 目前我研究的对象基于当前`zipline`的最新版本是 [1.0.2](https://github.com/quantopian/zipline/releases/tag/1.0.2) ，由于`zipline`的版本更新较快，后面可能会有些变化。请知晓。
 
