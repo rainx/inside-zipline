@@ -22,4 +22,3 @@ http://www.zipline.io/beginner-tutorial.html
 后面的这些文档是我再研究过程中逐步整理而成，更像一个笔记的形式而不是系统化的介绍。
 
 如果文档中出现了错误信息需要更正，欢迎到github上来发`issue` https://github.com/rainx/inside-zipline
-
