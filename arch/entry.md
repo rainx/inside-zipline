@@ -8,13 +8,13 @@
 
 ## 几种使用方式
 
-首先zipline主要有三种启动的方式：
+首先`zipline`主要有三种启动的方式：
 
-1. 使用zipline命令行工具
-2. 使用jupyter notebook 的zipline集成magic
-3. 直接自己组装和调用TradingAlgorithm
+1. 使用`zipline`命令行工具
+2. 使用`jupyter notebook` 的`zipline`集成`magic`
+3. 直接自己组装和调用`TradingAlgorithm`
 
-我们主要以zipline命令行工具为研究对象，来看一下它的结构，其它情况类似
+我们主要以`zipline`命令行工具为研究对象，来看一下它的结构，其它情况类似
 
 ## zipline 命令行
 
