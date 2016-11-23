@@ -155,6 +155,7 @@ if __name__ == '__main__':
         perfs = []
         for perf in algor_obj.get_generator():
                 perfs.append(perf)
+        daily_stats = algor_obj._create_daily_stats(perfs)
         daily_stats.to_pickle('/tmp/perf.pickle')
     finally:
         algor_obj.data_portal = None
