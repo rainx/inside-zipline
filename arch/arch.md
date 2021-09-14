@@ -4,7 +4,7 @@
 
 ```
 ├── ci    -  持续集成相关
-├── conda - 生成conda 包先关
+├── conda - 生成conda 包相关
 ├── docs - 文档
 │   ├── notebooks - notebook代码
 │   └── source  - 教程和what’s new
@@ -47,8 +47,8 @@
 │   │   ├── blotter.py - 账号？
 │   │   ├── cancel_policy.py - 取消策略
 │   │   ├── commission.py - 佣金
-│   │   ├── constants.py - 一些常亮定义
-│   │   ├── controls.py - 分控相关
+│   │   ├── constants.py - 一些常量定义
+│   │   ├── controls.py - 风控相关
 │   │   ├── execution.py - 订单类型
 │   │   ├── order.py - 订单逻辑
 │   │   ├── performance - 收益
